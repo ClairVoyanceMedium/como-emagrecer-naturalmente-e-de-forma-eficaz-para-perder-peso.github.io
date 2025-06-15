@@ -1,104 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+  <!-- Página em Português (prioridade máxima para o mercado alvo) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/pt/</loc>
+    <lastmod>2025-06-15T10:52:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <mobile:mobile/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://clairvoyancemedium.github.io/voyance/pt/" />
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://clairvoyancemedium.github.io/voyance/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clairvoyancemedium.github.io/voyance/fr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://clairvoyancemedium.github.io/voyance/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://clairvoyancemedium.github.io/voyance/es/" />
+    <image:image>
+      <image:loc>https://i.imgur.com/x9jJPra.jpg</image:loc>
+      <image:title>Serviços de Emagrecimento Espiritual</image:title>
+      <image:caption>Perda de peso através do equilíbrio espiritual - Método Exclusivo</image:caption>
+      <image:geo_location>Brasil</image:geo_location>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Dj-pfiIzB44/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Domine o Emagrecimento Espiritual Hoje</video:title>
+      <video:description>Descubra os segredos da perda de peso espiritual com nosso método revolucionário</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/Dj-pfiIzB44</video:content_loc>
+      <video:publication_date>2025-05-27</video:publication_date>
+      <video:duration>60</video:duration>
+      <video:view_count>5000</video:view_count>
+      <video:category>Espiritualidade</video:category>
+      <video:tag>emagrecimento</video:tag>
+      <video:tag>perda de peso</video:tag>
+      <video:tag>espiritual</video:tag>
+      <video:tag>método natural</video:tag>
+      <video:author>Equipe de Emagrecimento Espiritual</video:author>
+      <video:license>https://clairvoyancemedium.github.io/termos-de-uso/</video:license>
+      <video:rating>4.8</video:rating>
+    </video:video>
+  </url>
 
-    <!-- 🔥 Page d'accueil (Priorité maximale) -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/</loc>
-        <lastmod>2025-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-        <image:image>
-            <image:loc>https://clairvoyancemedium.github.io/images/homepage-main.jpg</image:loc>
-            <image:title>Retrouver l'Amour Rapidement</image:title>
-            <image:caption>Techniques puissantes pour attirer et garder l'amour.</image:caption>
-        </image:image>
-    </url>
+  <!-- Página em Português Brasileiro (otimizada para SEO local) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/pt-br/</loc>
+    <lastmod>2025-06-14T10:52:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+    <mobile:mobile/>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://clairvoyancemedium.github.io/voyance/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://clairvoyancemedium.github.io/voyance/pt/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clairvoyancemedium.github.io/voyance/fr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://clairvoyancemedium.github.io/voyance/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://clairvoyancemedium.github.io/voyance/es/" />
+    <image:image>
+      <image:loc>https://i.imgur.com/x9jJPra.jpg</image:loc>
+      <image:title>Emagreça Naturalmente com Método Espiritual</image:title>
+      <image:caption>O segredo brasileiro para perda de peso definitiva</image:caption>
+      <image:geo_location>Brasil</image:geo_location>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Dj-pfiIzB44/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Método Brasileiro de Emagrecimento Espiritual</video:title>
+      <video:description>Como mulheres brasileiras estão emagrecendo sem dietas</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/Dj-pfiIzB44</video:content_loc>
+      <video:publication_date>2025-05-27</video:publication_date>
+      <video:duration>60</video:duration>
+      <video:view_count>4500</video:view_count>
+      <video:category>Saúde</video:category>
+      <video:tag>emagrecer</video:tag>
+      <video:tag>Brasil</video:tag>
+      <video:tag>natural</video:tag>
+      <video:author>Especialistas em Emagrecimento Natural</video:author>
+      <video:license>https://clairvoyancemedium.github.io/termos-de-uso/</video:license>
+      <video:rating>4.8</video:rating>
+    </video:video>
+  </url>
 
-    <!-- 🔍 Pages principales -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/rituels-amour/</loc>
-        <lastmod>2025-02-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <image:image>
-            <image:loc>https://clairvoyancemedium.github.io/images/rituels-amour.jpg</image:loc>
-            <image:title>Rituels d'Amour Puissants</image:title>
-            <image:caption>Découvrez comment les rituels d’amour peuvent renforcer vos relations.</image:caption>
-        </image:image>
-    </url>
+  <!-- Página principal (otimizada para conversão) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/como-emagrecer/</loc>
+    <lastmod>2025-06-15T10:52:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <mobile:mobile/>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="https://clairvoyancemedium.github.io/como-emagrecer/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://clairvoyancemedium.github.io/voyance/pt/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clairvoyancemedium.github.io/voyance/fr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://clairvoyancemedium.github.io/voyance/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://clairvoyancemedium.github.io/voyance/es/" />
+    <image:image>
+      <image:loc>https://i.imgur.com/x9jJPra.jpg</image:loc>
+      <image:title>Como Emagrecer Naturalmente - Guia Definitivo</image:title>
+      <image:caption>Método 100% natural comprovado por especialistas</image:caption>
+      <image:geo_location>Brasil</image:geo_location>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Dj-pfiIzB44/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Emagrecimento Natural que Funciona</video:title>
+      <video:description>Depoimentos reais de pessoas que emagreceram sem sofrimento</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/Dj-pfiIzB44</video:content_loc>
+      <video:publication_date>2025-05-27</video:publication_date>
+      <video:duration>60</video:duration>
+      <video:view_count>6000</video:view_count>
+      <video:category>Bem-Estar</video:category>
+      <video:tag>emagrecer</video:tag>
+      <video:tag>natural</video:tag>
+      <video:tag>saúde</video:tag>
+      <video:author>Especialistas em Nutrição</video:author>
+      <video:license>https://clairvoyancemedium.github.io/termos-de-uso/</video:license>
+      <video:rating>4.8</video:rating>
+    </video:video>
+  </url>
 
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/voyance-email/</loc>
-        <lastmod>2025-02-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <image:image>
-            <image:loc>https://clairvoyancemedium.github.io/images/voyance-email.jpg</image:loc>
-            <image:title>Voyance par E-mail</image:title>
-            <image:caption>Posez vos questions à un voyant expérimenté par e-mail.</image:caption>
-        </image:image>
-    </url>
+  <!-- Blog (conteúdo otimizado para SEO) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/blog/</loc>
+    <lastmod>2025-06-13T10:52:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://i.imgur.com/H69KvL6.png</image:loc>
+      <image:title>Blog de Emagrecimento Natural</image:title>
+      <image:caption>Dicas exclusivas para perder peso com saúde</image:caption>
+      <image:geo_location>Brasil</image:geo_location>
+    </image:image>
+  </url>
 
-    <!-- 🎥 Contenu Vidéo (avec ID réel de la vidéo) -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/videos/comment-seduire-vite/</loc>
-        <lastmod>2025-02-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <video:video>
-            <video:player_loc>https://www.youtube.com/watch?v=ABCD1234EFG</video:player_loc>
-            <video:thumbnail_loc>https://clairvoyancemedium.github.io/images/video-thumbnail.jpg</video:thumbnail_loc>
-            <video:title>Comment séduire rapidement</video:title>
-            <video:description>Découvrez les meilleures techniques pour séduire efficacement.</video:description>
-        </video:video>
-    </url>
+  <!-- Artigo específico (otimizado para palavras-chave) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/blog/emagrecimento-natural/</loc>
+    <lastmod>2025-06-12T10:52:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <mobile:mobile/>
+    <news:news>
+      <news:publication>
+        <news:name>Emagrecimento Natural</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2025-05-27</news:publication_date>
+      <news:title>5 Métodos Naturais para Emagrecer Rápido em 2025</news:title>
+      <news:keywords>emagrecer, perder peso, natural, saudável, rápido</news:keywords>
+      <news:genres>Blog</news:genres>
+    </news:news>
+    <image:image>
+      <image:loc>https://i.imgur.com/H69KvL6.png</image:loc>
+      <image:title>Emagreça sem Remédios</image:title>
+      <image:caption>Descubra como perder peso de forma natural e permanente</image:caption>
+      <image:geo_location>Brasil</image:geo_location>
+    </image:image>
+  </url>
 
-    <!-- 📰 Articles Google News -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/news/nouvelle-technique-de-seduction/</loc>
-        <lastmod>2025-02-13</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-        <news:news>
-            <news:publication>
-                <news:name>Voyance & Amour News</news:name>
-                <news:language>fr</news:language>
-            </news:publication>
-            <news:publication_date>2025-02-13</news:publication_date>
-            <news:title>Nouvelle Technique de Séduction Révélée</news:title>
-            <news:keywords>séduction, amour, relation</news:keywords>
-        </news:news>
-    </url>
+  <!-- Página de depoimentos (social proof) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/depoimentos/</loc>
+    <lastmod>2025-06-11T10:52:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://i.imgur.com/x9jJPra.jpg</image:loc>
+      <image:title>Depoimentos Reais de Emagrecimento</image:title>
+      <image:caption>Veja resultados de pessoas reais que mudaram suas vidas</image:caption>
+      <image:geo_location>Brasil</image:geo_location>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Dj-pfiIzB44/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Depoimentos de Quem Emagreceu Naturalmente</video:title>
+      <video:description>Histórias reais de transformação e autoestima recuperada</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/Dj-pfiIzB44</video:content_loc>
+      <video:publication_date>2025-05-27</video:publication_date>
+      <video:duration>60</video:duration>
+      <video:view_count>4000</video:view_count>
+      <video:category>Depoimentos</video:category>
+      <video:tag>emagrecer</video:tag>
+      <video:tag>depoimentos</video:tag>
+      <video:tag>transformação</video:tag>
+      <video:author>Equipe de Emagrecimento Espiritual</video:author>
+      <video:license>https://clairvoyancemedium.github.io/termos-de-uso/</video:license>
+      <video:rating>4.8</video:rating>
+    </video:video>
+  </url>
 
-    <!-- 📱 Page optimisée pour mobile -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/mobile/</loc>
-        <lastmod>2025-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-        <mobile:mobile/>
-    </url>
+  <!-- Página de FAQ (otimizada para rich snippets) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/perguntas-frequentes/</loc>
+    <lastmod>2025-06-10T10:52:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <mobile:mobile/>
+  </url>
 
-    <!-- 📜 Pages légales -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/mentions-legales/</loc>
-        <lastmod>2025-01-10</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/cgv/</loc>
-        <lastmod>2025-01-10</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
+  <!-- Página de contato (otimizada pour conversão) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/contato/</loc>
+    <lastmod>2025-06-09T10:52:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <mobile:mobile/>
+  </url>
 </urlset>

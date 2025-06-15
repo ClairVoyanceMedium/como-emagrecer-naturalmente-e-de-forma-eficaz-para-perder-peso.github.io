@@ -952,4 +952,936 @@
     <button class="audio-button pause-button" data-text-id="programme-heading,programme-personnalise article,programme-personnalise .check-list,programme-personnalise .urgency-notice" aria-label="Pausar a reprodução de áudio" style="display:none">Pausa</button>
   </div>
 
+    <article class="audio-text" itemscope itemtype="https://schema.org/Product">
+    <meta itemprop="name" content="Programa de Emagrecimento Personalizado Victory">
+    <meta itemprop="description" content="Programa personalizado para perder 8 a 12 kilos em 2 meses com cápsulas Victory e conselhos. Preço: 43,00 €.">
+    <meta itemprop="brand" content="ClairvoyanceMedium.com">
+    <meta itemprop="image" content="https://i.imgur.com/H69KvL6.webp">
+    <meta itemprop="aggregateRating" content='{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"5000"}'>
+    <p>O <strong>Programa de Emagrecimento Personalizado Victory</strong> é uma solução completa para perder os quilos a mais, entre 3 e 7 kilos em 1 mês, sem frustração ou privação rigorosa. Este programa para emagrecer rápido e bem está atualmente por 43,00€ antes do aumento de preço que se avizinha. Inclui um plano alimentar personalizado, exercícios de emagrecimento direcionados e adaptados, e acompanhamento personalizado mediante pedido para a sua perda de peso:</p>
+    <ul class="check-list">
+      <li><strong>Plano alimentar personalizado:</strong> Adaptado às suas necessidades, sem privações.</li>
+      <li><strong>Conselhos de exercícios:</strong> Atividades simples como caminhada ou ioga.</li>
+      <li><strong>Acompanhamento:</strong> Motivador para manter o rumo certo.</li>
+      <li><strong>Acesso a um profissional para todas as questões sobre a gestão pós-dieta:</strong> Respostas às suas perguntas em menos de 10h.</li>
+    </ul>
+    <p>Este programa é ideal para quem quer resultados duradouros sem frustração, com um verdadeiro reequilíbrio alimentar. Os nossos especialistas analisam o seu perfil (idade, peso, estilo de vida) para criar um plano de emagrecimento único. Com mais de 4000 clientes satisfeitos, este programa para emagrecer garante uma silhueta mais fina, uma energia renovada e uma força mental multiplicada. Resultados visíveis a partir de 2 semanas!</p>
+    <p>Comece a sua transformação hoje mesmo!</p>
+    <p class="urgency-notice">⏰ Oferta exclusiva!</p>
+    <p>*Os resultados variam consoante as pessoas.</p>
+  </article>
+  <div class="cta-buttons-container">
+    <a href="https://buy.stripe.com/cN2bJ69bmbL9b4Y3dA" target="_blank" rel="noopener nofollow" class="cta-button" data-tracking-label="VictoryProgram" aria-label="Encomendar o programa de emagrecimento personalizado Victory">
+    <span style="color:#000; text-shadow:0 0 5px rgba(255,255,255,0.8), 0 0 10px rgba(255,255,255,0.6), 0 0 15px rgba(255,255,255,0.4); animation:neon-flicker 1.5s infinite alternate;">Programa de emagrecimento personalizado – 43,00 €</span>
+</a>
+  </div>
+</section>
+
+        <section class="content-container" id="imc" aria-labelledby="imc-heading">
+            <div class="title-container">
+                <h2 id="imc-heading">Calcule o Seu IMC e Planeie a Sua Perda de Peso</h2>
+            </div>
+            <div class="audio-button-container">
+                <button class="audio-button play-button" data-text-id="imc-heading,imc article,imc-recommendation" aria-label="Ouvir a secção Calculadora IMC">Ouvir</button>
+                <button class="audio-button pause-button" data-text-id="imc-heading,imc article,imc-recommendation" aria-label="Pausar a leitura de áudio" style="display:none">Pausa</button>
+            </div>
+            <article class="audio-text">
+                <p><strong>A nossa calculadora de Índice de Massa Corporal (IMC)</strong> é uma ferramenta simples para avaliar o seu peso ideal e planear a sua perda de peso. Irá direcioná-lo diretamente para a dieta que precisa para iniciar eficazmente a sua melhoria física! Introduza a sua altura (em centimetros) e o seu peso (em kilos) abaixo para descobrir o seu IMC e receber recomendações personalizadas.</p>
+                <p>As nossas cápsulas Victory e o nosso programa personalizado são adaptados a todos os perfis, seja mulher ou homem, esteja com um ligeiro excesso de peso ou vise uma transformação significativa. Utilize a nossa calculadora para definir objetivos realistas e assim conhecer a posologia das cápsulas emagrecedoras Victory a tomar para recuperar a linha, acompanhada de conselhos preciosos para finalmente ter uma resposta clara à questão "Como perder peso rapidamente sem voltar a ganhar"!</p>
+            </article>
+            <div class="imc-calculator">
+                <form id="imc-form" aria-labelledby="imc-heading">
+                    <label for="height">Altura (cm):</label>
+                    <input type="number" id="height" name="height" min="100" max="250" step="1" required aria-describedby="height-error">
+                    <span id="height-error" role="alert" style="color:#ff6b6b;display:none">Por favor, introduza uma altura entre 100 e 250 cm.</span>
+                    <label for="weight">Peso (kilos):</label>
+                    <input type="number" id="weight" name="weight" min="30" max="300" step="0.1" required aria-describedby="weight-error">
+                    <span id="weight-error" role="alert" style="color:#ff6b6b;display:none">Por favor, introduza um peso entre 30 e 300 kilos.</span>
+                    <button type="submit" class="imc-button cta-button" aria-label="Calcular o IMC">Calcular</button>
+                </form>
+                <canvas id="imc-chart" class="imc-chart" aria-label="Gráfico do IMC"></canvas>
+                <div id="imc-recommendation" class="imc-recommendation audio-text" role="status"></div>
+            </div>
+            <figure style="text-align:center; margin:2rem auto;" aria-label="Transformação de Olivia L., Paris, após 34 dias com Victory">
+  <picture>
+    <source srcset="https://i.imgur.com/x9jJPra.jpg 320w, https://i.imgur.com/x9jJPra.jpg 480w, https://i.imgur.com/x9jJPra.jpg 900w" 
+            type="image/jpeg" 
+            sizes="(max-width:600px) 100vw, (max-width:900px) 90vw, 900px">
+    <img src="https://i.imgur.com/x9jJPra.jpg" 
+         alt="Resultado visível de Olivia L., 32 anos, Paris, após 40 dias com as cápsulas de emagrecimento personalizadas Victory" 
+         style="width:100%; height:auto; border-radius:16px; box-shadow:0 0 20px rgba(0,0,0,0.25);"
+         decoding="async" 
+         loading="lazy" 
+         title="Antes / depois 40 dias de tratamento personalizado com as cápsulas para emagrecer Victory – Olivia L., 32 anos"
+         aria-label="Foto completa da transformação de Olivia com Victory">
+  </picture>
+
+  <figcaption style="font-size:1rem; color:#4a4a4a; margin-top:1rem; font-style:normal; line-height:1.7;" aria-label="Depoimento vocalmente acessível de Victoria após 34 dias com Victory">
+    <strong>Olivia L., 32 anos – Paris</strong><br>
+    *«Eu estava verdadeiramente desesperada e desconfortável na minha pele... Já não acreditava em nada. Tinha tentado tudo, e pensava que o meu corpo já não podia mudar.»*<br>
+    *«E no entanto, em apenas 40 dias, tudo mudou. E eu não fiz nada de extremo. Apenas <strong>2 cápsulas emagrecedoras Victory por dia</strong>, de manhã e à noite + o plano de emagrecimento personalizado Victory.»*<br>
+    *«Foi a primeira vez que um produto para emagrecer compreendeu verdadeiramente as minhas necessidades. O meu metabolismo voltou a funcionar naturalmente, sem stress, sem frustração. Hoje, olho para mim com orgulho e sinto-me até, por vezes, mais forte do que os outros quando há ainda poucos dias estava destruída...»*
+  </figcaption>
+</figure>
+
+<!-- Dados estruturados JSON-LD SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Cápsulas de emagrecimento personalizadas Victory",
+  "image": "https://i.imgur.com/x9jJPra.jpg",
+  "description": "Programa natural, inteligente e personalizado de perda de peso. Resultado visível a partir de 34 dias. Exemplo real: Olivia, 32 anos, Paris.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Victory"
+  },
+  "review": {
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Olivia L.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Paris",
+        "addressCountry": "FR"
+      }
+    },
+    "reviewBody": "Pensei que tinha tentado tudo. O meu corpo recusava-se a mudar. Mas 40 dias com as cápsulas personalizadas Victory (2 por dia) transformaram tudo. Finalmente recuperei a minha silhueta e o meu moral.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://clairvoyancemedium.github.io/como-emagrecer-naturalmente-e-de-forma-eficaz-para-perder-peso.github.io/",
+    "priceCurrency": "EUR",
+    "price": "43.00",
+    "priceValidUntil": "2070-12-31",
+    "availability": "https://schema.org/InStock",
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0",
+        "currency": "EUR"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "PT",
+        "postalCode": "1000-001"
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "PT",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 14,
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnFees": "https://schema.org/FreeReturn"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "5000",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "audience": {
+    "@type": "PeopleAudience",
+    "suggestedAge": {
+      "@type": "QuantitativeValue",
+      "minValue": 18,
+      "maxValue": 99
+    }
+  }
+}
+</script>
+
+        </section>
+
+        <section class="content-container" id="comparaison" aria-labelledby="comparaison-heading">
+            <div class="title-container">
+                <h2 id="comparaison-heading">Porque é que com as cápsulas de emagrecimento Victory vai realmente perder peso?</h2>
+            </div>
+            <div class="audio-button-container">
+                <button class="audio-button play-button" data-text-id="comparaison-heading,comparaison article,comparaison-table" aria-label="Ouvir a secção Comparação">Ouvir</button>
+                <button class="audio-button pause-button" data-text-id="comparaison-heading,comparaison article,comparaison-table" aria-label="Pausar a leitura de áudio" style="display:none">Pausa</button>
+            </div>
+            <article class="audio-text">
+                <p>As cápsulas Victory distinguem-se de outras soluções de emagrecimento pela sua eficácia, composição natural e abordagem holística. Aqui está uma comparação clara com outros métodos populares:</p>
+            </article>
+            <div class="comparison-table-container">
+                <table class="comparison-table" aria-labelledby="comparaison-heading">
+                    <caption class="sr-only">Comparação de soluções de emagrecimento</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Critério</th>
+                            <th scope="col">Cápsulas de emagrecimento Victory</th>
+                            <th scope="col">Dieta Solitária (sem acompanhamento)</th>
+                            <th scope="col">Outros suplementos de emagrecimento</th>
+                            <th scope="col">Dietas temáticas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Perda de peso rápida</th>
+                            <td class="check">✔</td>
+                            <td class="cross">✘</td>
+                            <td class="cross">✘</td>
+                            <td class="check">✔</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Ingredientes naturais</th>
+                            <td class="check">✔</td>
+                            <td class="check">✔</td>
+                            <td class="cross">✘</td>
+                            <td class="cross">✘</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Sem efeitos secundários</th>
+                            <td class="check">✔</td>
+                            <td class="cross">✘</td>
+                            <td class="check">✔</td>
+                            <td class="cross">✘</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Facilidade de utilização</th>
+                            <td class="check">✔</td>
+                            <td class="cross">✘</td>
+                            <td class="check">✔</td>
+                            <td class="cross">✘</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Custo acessível</th>
+                            <td class="check">✔</td>
+                            <td class="cross">✘</td>
+                            <td class="check">✔</td>
+                            <td class="cross">✘</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Dieta de emagrecimento sem "efeito ioiô"</th>
+                            <td class="check">✔</td>
+                            <td class="cross">✘</td>
+                            <td class="cross">✘</td>
+                            <td class="cross">✘</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Envio gratuito</th> 
+                            <td class="check">✔</td>
+                            <td class="cross">✘</td>
+                            <td class="check">✔</td>
+                            <td class="cross">✘</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <article class="audio-text">
+                <p>As <a href="#minceur">cápsulas Victory</a> oferecem uma solução completa: perda de peso rápida, ingredientes naturais, nenhum efeito secundário, e um apoio mental único. Ao contrário de dietas rigorosas ou cirurgia, a Victory é acessível, fácil de integrar, e promove uma transformação duradoura. Descubra porque mais de 4000 clientes confiam em nós!</p>
+            </article>
+            <div class="cta-buttons-container">
+                <a href="https://buy.stripe.com/9AQ28w5Zag1p5KE29u" target="_blank" rel="noopener nofollow" class="cta-button" data-tracking-label="Victory1Box" aria-label="Encomendar 1 caixa de cápsulas Victory">
+    <span style="color:#000; text-shadow:0 0 5px rgba(255,255,255,0.8), 0 0 10px rgba(255,255,255,0.6), 0 0 15px rgba(255,255,255,0.4); animation:neon-flicker 1.5s infinite alternate;">60 cápsulas Victory – 19,00 €</span>
+</a>
+            </div>
+        </section>
+
+        <section class="content-container" id="avis" aria-labelledby="avis-heading">
+            <div class="title-container">
+                <h2 id="avis-heading">O Que Pensam os Nossos Clientes dos Nossos Serviços</h2>
+                <p>Avaliação 4,7/5 ⭐⭐⭐⭐ (+ de 1000 avaliações verificadas)</p>
+            </div>
+            <br>
+            <div class="audio-button-container">
+                <button class="audio-button play-button" data-text-id="avis-heading,avis .carousel-item" aria-label="Ouvir os depoimentos dos clientes">Ouvir</button>
+                <button class="audio-button pause-button" data-text-id="avis-heading,avis .carousel-item" aria-label="Pausar a leitura de áudio" style="display:none">Pausa</button>
+            </div>
+            <div class="carousel" aria-label="Carrossel de depoimentos de clientes">
+                <div class="carousel-inner">
+                    <figure class="carousel-item active" aria-hidden="false" itemscope itemtype="https://schema.org/Review">
+                        <meta itemprop="itemReviewed" content="Cápsulas de Emagrecimento Victory">
+                        <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5"}'>
+                        <blockquote class="audio-text" itemprop="reviewBody">«Se me tivessem dito um dia que seria graças ao meu vidente que ia perder peso... Perdi 7 kilos em 6 semanas com as cápsulas de emagrecimento Victory! Sinto-me mais leve, cheia de energia, e até a minha pele está mais luminosa.»</blockquote>
+                        <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Sofia, 34 anos</span></figcaption>
+                    </figure>
+                    <figure class="carousel-item" aria-hidden="true" itemscope itemtype="https://schema.org/Review">
+                        <meta itemprop="itemReviewed" content="Cápsulas de Emagrecimento Victory">
+                        <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5"}'>
+                        <blockquote class="audio-text" itemprop="reviewBody">«As cápsulas para emagrecer Victory transformaram-me. Perdi 12 kilos no total e recuperei a confiança em mim, sinto-me mais forte.»</blockquote>
+                        <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Miguel, 42 anos</span></figcaption>
+                    </figure>
+
+<!-- Avaliação 1 - Cápsulas de Emagrecimento Victory (Detalhada e otimizada SEO) -->
+<figure class="carousel-item" aria-hidden="true" itemscope itemtype="https://schema.org/Review">
+  <meta itemprop="itemReviewed" content="Cápsulas de Emagrecimento Victory">
+  <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"1"}'>
+  <div class="review-details">
+    <span class="rating-stars">★★★★★</span>
+    <span class="verified-badge">Compra verificada</span>
+  </div>
+  <blockquote class="audio-text" itemprop="reviewBody">
+    «Depois de testar vários produtos de emagrecimento sem resultados, as cápsulas Victory foram uma revelação! 
+    Em apenas 5 semanas, perdi 8 kilos de forma natural, sem efeito ioiô. 
+    Não só reduzem eficazmente a fome, como também aumentam a energia durante todo o dia. 
+    Recomendo tomá-las com o programa nutricional Victory para maximizar os resultados. 
+    Um produto excecional que merece as suas 5 estrelas!»
+  </blockquote>
+  <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person">
+    <span itemprop="name">Laura D.</span>, 
+    <span class="reviewer-info">31 anos, utilizadora há 3 meses</span>,
+    <span class="location">Lisboa, Portugal</span>
+  </figcaption>
+  <meta itemprop="datePublished" content="2023-11-15">
+</figure>
+
+<!-- Avaliação 2 - Programa de Emagrecimento Personalizado (Enriquecido para SEO) -->
+<figure class="carousel-item" aria-hidden="true" itemscope itemtype="https://schema.org/Review">
+  <meta itemprop="itemReviewed" content="Programa de Emagrecimento Personalizado Victory">
+  <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"1"}'>
+  <div class="review-details">
+    <span class="rating-stars">★★★★★</span>
+    <span class="verified-badge">Cliente acompanhado durante 3 meses</span>
+  </div>
+  <blockquote class="audio-text" itemprop="reviewBody">
+    «O coaching de emagrecimento Victory transformou a minha abordagem à perda de peso. 
+    É o meu nutricionista de eleição agora! Criou-me um plano para emagrecer à medida adaptado ao meu metabolismo lento. 
+    Resultado: 10 kilos em 2 meses sem privação excessiva! 
+    Os pontos fortes: receitas saborosas, um acompanhamento diário por WhatsApp, 
+    e ajustes em tempo real de acordo com a minha evolução. 
+    Este programa vale cada cêntimo investido - finalmente uma solução duradoura contra os quilos a mais!»
+  </blockquote>
+  <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person">
+    <span itemprop="name">Tomás L.</span>,
+    <span class="reviewer-info">38 anos, perda de peso mantida há 6 meses agora</span>,
+    <span class="location">Porto, Portugal</span>
+  </figcaption>
+  <meta itemprop="datePublished" content="2023-09-22">
+</figure>
+
+<!-- Avaliação 3 - Vidência por Email (Versão longa otimizada) -->
+<figure class="carousel-item" aria-hidden="true" itemscope itemtype="https://schema.org/Review">
+  <meta itemprop="itemReviewed" content="Vidência por Email com Frederick">
+  <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"1"}'>
+  <div class="review-details">
+    <span class="rating-stars">★★★★★</span>
+    <span class="verified-badge">Consulta confirmada</span>
+  </div>
+  <blockquote class="audio-text" itemprop="reviewBody">
+    «A vidência por email com Frederick superou todas as minhas expectativas! 
+    A sua leitura precisa da minha situação profissional ajudou-me a tomar uma decisão crucial. 
+    Ao contrário de outros médiuns, as suas previsões concretizaram-se em 90% em 6 meses. 
+    Pontos fortes: resposta detalhada em 4h, preços acessíveis, e ausência de vendas adicionais. 
+    Gostei particularmente da sua honestidade quando um resultado era incerto. 
+    Um serviço raro de vidência séria que recomendo a todos os que duvidam do seu caminho de vida.»
+  </blockquote>
+  <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person">
+    <span itemprop="name">Emma C.</span>,
+    <span class="reviewer-info">27 anos, 3 consultas</span>,
+    <span class="location">Paris, França</span>
+  </figcaption>
+  <meta itemprop="datePublished" content="2024-01-10">
+</figure>
+
+<figure class="carousel-item" aria-hidden="true" itemscope itemtype="https://schema.org/Review"> <meta itemprop="itemReviewed" content="Cápsulas de Emagrecimento Victory"> <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5"}'> <blockquote class="audio-text" itemprop="reviewBody">«No início, hesitei, mas as cápsulas de emagrecimento Victory transformaram a minha silhueta. Perdi 7 kilos em 4 semanas sem esforço, e a minha barriga está mais lisa. O envio gratuito é um verdadeiro bónus para este produto natural!»</blockquote> <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">António, 40 anos</span></figcaption> </figure> <figure class="carousel-item" aria-hidden="true" itemscope itemtype="https://schema.org/Review"> <meta itemprop="itemReviewed" content="Desenfeitiçamento"> <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5"}'> <blockquote class="audio-text" itemprop="reviewBody">«Finalmente livre graças ao desenfeitiçamento de Frederick! Estava bloqueada por energias negativas, e agora, sinto uma paz interior incrível.»</blockquote> <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Maria, 35 anos</span></figcaption> </figure> <figure class="carousel-item" aria-hidden="true" itemscope itemtype="https://schema.org/Review"> <meta itemprop="itemReviewed" content="Magia Sentimental"> <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5"}'> <blockquote class="audio-text" itemprop="reviewBody">«O meu casal renasceu graças à magia sentimental. Frederick, és genial!»</blockquote> <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Luís, 33 anos</span></figcaption> </figure> <figure class="carousel-item" aria-hidden="true" itemscope itemtype="https://schema.org/Review"> <meta itemprop="itemReviewed" content="Compatibilidade Amorosa"> <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5"}'> <blockquote class="audio-text" itemprop="reviewBody">«A análise de compatibilidade amorosa esclareceu-me sobre a minha relação. Os conselhos de Frederick são de uma rara precisão e ajudaram-me a compreender melhor o meu parceiro.»</blockquote> <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Sofia, 28 anos</span></figcaption> </figure> <figure class="carousel-item" aria-hidden="true" itemscope itemtype="https://schema.org/Review"> <meta itemprop="itemReviewed" content="Cápsulas de Emagrecimento Victory"> <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5"}'> <blockquote class="audio-text" itemprop="reviewBody">«Fantástico, as cápsulas Victory fizeram-me perder 9 kilos em 6 semanas! Sinto-me no meu melhor.»</blockquote> <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Catarina, 30 anos</span></figcaption> </figure> <figure class="carousel-item" aria-hidden="true" itemscope itemtype="https://schema.org/Review"> <meta itemprop="itemReviewed" content="Programa de Emagrecimento Personalizado Victory"> <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5"}'> <blockquote class="audio-text" itemprop="reviewBody">«Que transformação com o programa de emagrecimento personalizado! Perdi 12 kilos em 2 meses graças a um plano alimentar adaptado e exercícios simples. Esta dieta eficaz devolveu-me a confiança, recomendo vivamente!»</blockquote> <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Paulo, 45 anos</span></figcaption> </figure> <figure class="carousel-item" aria-hidden="true" itemscope itemtype="https://schema.org/Review"> <meta itemprop="itemReviewed" content="Vidência por Email"> <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5"}'> <blockquote class="audio-text" itemprop="reviewBody">«Um enorme obrigado pela vidência por email! Frederick deu-me conselhos preciosos sobre a minha vida amorosa.»</blockquote> <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Cláudia, 26 anos</span></figcaption> </figure>
+
+                     
+                    <figure class="carousel-item" aria-hidden="true" itemscope itemtype="https://schema.org/Review">
+                        <meta itemprop="itemReviewed" content="Programa de Emagrecimento Personalizado Victory">
+                        <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5"}'>
+                        <blockquote class="audio-text" itemprop="reviewBody">«O programa para perder peso personalizado é incrível. Perdi 11 kilos em 2 meses, e o acompanhamento motivou-me!»</blockquote>
+                        <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Clara, 29 anos</span></figcaption>
+                    </figure>
+                    <figure class="carousel-item" aria-hidden="true" itemscope itemtype="https://schema.org/Review">
+                        <meta itemprop="itemReviewed" content="Vidência por Email">
+                        <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5"}'>
+                        <blockquote class="audio-text" itemprop="reviewBody">«Respostas claras e rápidas. Frederick ajudou-me verdadeiramente na minha vida amorosa graças ao ritual de amor.»</blockquote>
+                        <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Júlia, 37 anos</span></figcaption>
+                    </figure>
+                    <figure class="carousel-item" aria-hidden="true" itemscope itemtype="https://schema.org/Review">
+                        <meta itemprop="itemReviewed" content="Desenfeitiçamento">
+                        <meta itemprop="reviewRating" content='{"@type":"Rating","ratingValue":"5"}'>
+                        <blockquote class="audio-text" itemprop="reviewBody">«O desenfeitiçamento mudou a minha vida. Sinto-me libertado e cheio de energia positiva. Obrigado»</blockquote>
+                        <figcaption class="audio-text" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Júlio, 45 anos</span></figcaption>
+                    </figure>
+                </div>
+                <div class="carousel-nav">
+                    <button class="carousel-prev" aria-label="Depoimento anterior" disabled>◄</button>
+                    <button class="carousel-next" aria-label="Depoimento seguinte">►</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-container" id="blog" aria-labelledby="blog-heading">
+            <div class="title-container">
+                <h2 id="blog-heading">Blog Bem-Estar: Emagrecimento & Espiritualidade</h2>
+            </div>
+            <div class="audio-button-container">
+                <button class="audio-button play-button" data-text-id="blog-heading,blog .carousel-item" aria-label="Ouvir a secção Blog">Ouvir</button>
+                <button class="audio-button pause-button" data-text-id="blog-heading,blog .carousel-item" aria-label="Pausar a leitura de áudio" style="display:none">Pausa</button>
+            </div>
+            <div class="carousel blog-carousel" aria-label="Carrossel de artigos de blog">
+                <div class="carousel-inner">
+                    <article class="carousel-item active" aria-hidden="false">
+                        <h3 class="audio-text">5 Dicas para Perder Peso Sem Frustração</h3>
+                        <p class="audio-text">Descubra como emagrecer rápido com conselhos simples: hidrate-se, caminhe 30 min por dia, utilize as cápsulas Victory, privilegie refeições equilibradas, e pratique meditação para reduzir o stress.</p>
+                        <button class="read-more-btn audio-text" aria-label="Ler mais do artigo">Ler mais</button>
+                        <div class="read-more-content audio-text">
+                            <p>Incorporar alimentos ricos em fibras como vegetais verdes e frutos vermelhos também pode acelerar o seu metabolismo. Associe isto a um sono de qualidade para otimizar os seus resultados. Experimente as nossas <a href="#minceur">cápsulas Victory</a> para uma ajuda natural!</p>
+                        </div>
+                    </article>
+                    <article class="carousel-item" aria-hidden="true">
+                <h3 class="audio-text">Exercícios para um corpo tonificado e esculpido</h3>
+                <p class="audio-text">Esculpir a sua silhueta com exercícios simples como agachamentos, afundos ou flexões. Estes movimentos, associados às <a href="#minceur">cápsulas Victory</a>, tonificam os seus músculos e aceleram a perda de peso. Uma rotina regular aproxima-o dos seus objetivos.</p>
+                <button class="read-more-btn audio-text" aria-label="Ler mais do artigo sobre exercícios">Ler mais</button>
+                <div class="read-more-content audio-text">
+                    <p>Os exercícios de reforço muscular, como agachamentos ou pranchas, aumentam o seu metabolismo basal, ajudando-o a queimar mais calorias mesmo em repouso. Faça três sessões de vinte minutos por semana, alternando os grupos musculares para um trabalho equilibrado. As <a href="#minceur">cápsulas Victory</a> otimizam estes esforços reduzindo a absorção de gorduras, permitindo-lhe ver resultados mais rapidamente. Utilize vídeos online para aprender as técnicas corretas e evitar lesões. Adicione alongamentos para melhorar a sua flexibilidade. O nosso <a href="#programme-personnalise">programa personalizado</a> propõe rotinas adaptadas ao seu nível, com conselhos para se manter motivado.</p>
+                </div>
+            </article>
+            <article class="carousel-item" aria-hidden="true">
+                <h3 class="audio-text">Gratidão: uma alavanca para o seu bem-estar</h3>
+                <p class="audio-text">Praticar a gratidão reduz o stress, melhora o seu humor, e apoia os seus objetivos de emagrecimento. Ao anotar diariamente aquilo por que está grato, cultiva uma atitude positiva. Associe isto à <a href="#spiritual-services">vidência por email</a> para um equilíbrio emocional profundo.</p>
+                <button class="read-more-btn audio-text" aria-label="Ler mais do artigo sobre gratidão">Ler mais</button>
+                <div class="read-more-content audio-text">
+                    <p>A gratidão reprograma o seu cérebro para se concentrar no positivo, reduzindo os desejos de petiscar ligados ao stress. Todas as noites, escreva três coisas que o fizeram feliz, como um momento partilhado ou um objetivo alcançado. Esta prática reforça a sua motivação para adotar hábitos saudáveis, como comer de forma equilibrada ou fazer exercício. Uma sessão de <a href="#spiritual-services">vidência por email</a> com Frederick pode ajudá-lo a identificar o que o bloqueia na sua busca de bem-estar. Integre também rituais simples, como uma meditação matinal ou um sorriso frente ao espelho. O nosso <a href="#programme-personnalise">programa personalizado</a> propõe exercícios de gratidão e conselhos para transformar o seu estado de espírito.</p>
+                </div>
+            </article>
+                    <article class="carousel-item" aria-hidden="true">
+                        <h3 class="audio-text">Como a Vidência Pode Ajudar o Seu Bem-Estar</h3>
+                        <p class="audio-text">A vidência por email de Frederick guia-o nas suas escolhas amorosas, profissionais ou pessoais. Uma sessão pode libertar os seus bloqueios emocionais e aumentar a sua confiança.</p>
+                        <button class="read-more-btn audio-text" aria-label="Ler mais do artigo">Ler mais</button>
+                        <div class="read-more-content audio-text">
+                            <p>Os nossos serviços como o <a href="#spiritual-services">desenfeitiçamento</a> ou a <a href="#spiritual-services">magia sentimental</a> complementam esta abordagem para um equilíbrio total. Descubra como a espiritualidade pode transformar o seu quotidiano!</p>
+                        </div>
+                    </article>
+                    <article class="carousel-item" aria-hidden="true">
+                        <h3 class="audio-text">Ioga e Emagrecimento: Uma Combinação Vencedora</h3>
+                        <p class="audio-text">O ioga, combinado com as cápsulas Victory, acelera a perda de peso enquanto reduz o stress. Experimente posturas simples como a prancha ou o cão com a cabeça para baixo.</p>
+                        <button class="read-more-btn audio-text" aria-label="Ler mais do artigo">Ler mais</button>
+                        <div class="read-more-content audio-text">
+                            <p>Praticar 15 minutos por dia é suficiente para ver resultados. Associe isto ao nosso <a href="#programme-personnalise">programa personalizado</a> para uma transformação completa!</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="carousel-nav">
+                    <button class="carousel-prev" aria-label="Artigo anterior" disabled>◄</button>
+                    <button class="carousel-next" aria-label="Artigo seguinte">►</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-container" id="article" aria-labelledby="article-heading">
+            <div class="title-container">
+                <h2 id="article-heading">Artigo: Emagrecimento e Espiritualidade, a Chave do Sucesso</h2>
+            </div>
+            <div class="audio-button-container">
+                <button class="audio-button play-button" data-text-id="article-heading,article-section" aria-label="Ouvir o artigo Emagrecimento e Espiritualidade">Ouvir</button>
+                <button class="audio-button pause-button" data-text-id="article-heading,article-section" aria-label="Pausar a leitura de áudio" style="display:none">Pausa</button>
+            </div>
+            <article class="article-section audio-text">
+                <p>Perder peso não se limita a mudar a alimentação ou a fazer exercício. O <strong>emagrecimento duradouro</strong> passa também por um equilíbrio emocional e espiritual. As <a href="#minceur">cápsulas Victory</a> atuam no corpo, mas associar esta transformação física a uma abordagem espiritual amplifica enormemente os resultados.</p>
+                <p>O stress, os bloqueios emocionais ou as energias negativas podem atrasar os seus progressos. É aqui que intervêm os serviços de Frederick. Uma <a href="#spiritual-services">vidência por email</a> a 6,00€ pode claramente esclarecer as suas escolhas, um <a href="#spiritual-services">desenfeitiçamento</a> liberta as energias bloqueadoras, e a <a href="#spiritual-services">magia sentimental</a> reforça as suas relações. Estas ferramentas espirituais ajudam-no a recuperar a confiança e motivação.</p>
+                <br>
+                <p>Aqui estão 3 conselhos práticos para aliar emagrecimento e espiritualidade:</p>
+                <br>
+                <ol>
+                    <li><strong>Medite 10 min por dia:</strong> Reduza o stress para limitar os desejos de petiscar.</li>
+                    <li><strong>Caminhe em plena consciência:</strong> Ligue-se à natureza enquanto queima calorias.</li>
+                    <li><strong>Defina intenções claras:</strong> Uma vidência pode ajudá-lo a definir os seus objetivos.</li>
+                </ol>
+                <br>
+                <p>Com as cápsulas para emagrecer rápido "Victory" acompanhadas pelos nossos serviços espirituais, transforma verdadeiramente o seu corpo e espírito. Junte-se aos nossos 4000+ clientes satisfeitos e comece hoje mesmo!</p>
+                <p class="backlink">Fonte: <a href="https://www.sante-nutrition.fr" class="backlink">Saúde Nutrição</a></p>
+            </article>
+            <div class="cta-buttons-container">
+                <a href="https://buy.stripe.com/9AQ28w5Zag1p5KE29u" target="_blank" rel="noopener nofollow" class="cta-button" data-tracking-label="Victory1Box" aria-label="Encomendar 1 caixa de cápsulas Victory">Emagreça agora mesmo e Encomende Victory emagrecimento sem esperar</a>
+            </div>
+        </section>
+
+        <section class="content-container voyance-section" id="spiritual-services" aria-labelledby="spiritual-services-heading">
+            <div class="title-container">
+                <h2 id="spiritual-services-heading">Serviços Espirituais por Frederick</h2>
+            </div>
+            <div class="audio-button-container">
+                <button class="audio-button play-button" data-text-id="spiritual-services-heading,spiritual-services article,spiritual-services .service-description" aria-label="Ouvir a secção Serviços Espirituais">Ouvir</button>
+                <button class="audio-button pause-button" data-text-id="spiritual-services-heading,spiritual-services article,spiritual-services .service-description" aria-label="Pausar a leitura de áudio" style="display:none">Pausa</button>
+            </div>
+
+  <!-- 🔮 Imagem otimizada para Futurólogo Clarividente Frederick - Líder mundial SEO, IA & Web3 2025 🔮 -->
+<picture>
+    <img 
+        src="https://i.imgur.com/LVjBODh.jpg"
+        alt="Frederick, futurólogo clarividente reconhecido em vidência por email desde 1998"
+        width="900"
+        height="675"
+        style="display:block; max-width:100%; height:auto; margin:0 auto; border-radius:16px; box-shadow:0 0 20px rgba(0,0,0,0.25);"
+        loading="lazy"
+        decoding="async"
+        fetchpriority="high"
+        title="Frederick, especialista em vidência por email e rituais premium">
+</picture>
+
+<!-- 🌐 JSON-LD para SEO, credibilidade, IA, Assistentes vocais & Web3 (Otimização máxima 2025) -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": ["Person", "ProfessionalService"],
+            "@id": "https://clairvoyancemedium.com#frederick",
+            "name": "Frederick",
+            "givenName": "Frederick",
+            "description": "Frederick, futurólogo clarividente com 27 anos de experiência desde 1998, especializado em vidência por email e rituais premium para apoiar projetos afetivos e espirituais. Consultas a partir de 15€, rituais premium de 250€ a 500€, pagamentos em USDT aceites.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://clairvoyancemedium.com",
+                "speakable": {
+                    "@type": "SpeakableSpecification",
+                    "xpath": ["/html/head/title"],
+                    "cssSelector": [".service-title"]
+                }
+            },
+            "disambiguatingDescription": "Futurólogo clarividente especializado em vidência por email e rituais premium",
+            "image": {
+                "@type": "ImageObject",
+                "@id": "https://clairvoyancemedium.com#image-frederick",
+                "url": "https://i.imgur.com/LVjBODh.jpg",
+                "contentUrl": "https://i.imgur.com/LVjBODh.jpg",
+                "width": "900",
+                "height": "675",
+                "caption": "Retrato oficial de Frederick, futurólogo clarividente em vidência e rituais premium"
+            },
+            "telephone": "+33695468923",
+            "email": "contact@clairvoyancemedium.com",
+            "url": "https://clairvoyancemedium.com",
+            "sameAs": [
+                "https://clairvoyancemedium.com",
+                "https://x.com/clairvoyancemedium",
+                "https://www.google.com/maps?cid=12345678901234567890",
+                "https://www.instagram.com/clairvoyancemedium",
+                "https://www.trustpilot.com/review/clairvoyancemedium.com"
+            ],
+            "knowsAbout": [
+                {
+                    "@type": "Thing",
+                    "name": "Vidência por email",
+                    "description": "Método de adivinhação via troca escrita para conselhos personalizados"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Ritual sentimental",
+                    "description": "Prática espiritual premium para reforçar laços amorosos"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Retorno afetivo",
+                    "description": "Ritual premium para favorecer a reconexão emocional"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Desenfeitiçamento",
+                    "description": "Prática premium para eliminar energias negativas"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Ritual de paixão",
+                    "description": "Ritual premium para apoiar o amor e a intensidade emocional"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Mediunidade",
+                    "description": "Comunicação espiritual para insights profundos"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Futurologia",
+                    "description": "Previsão de tendências futuras baseada na intuição e análise"
+                }
+            ],
+            "knowsLanguage": ["pt", "en"],
+            "areaServed": ["PT", "BR", "AO"],
+            "availableChannel": {
+                "@type": "ServiceChannel",
+                "serviceUrl": "https://clairvoyancemedium.com",
+                "providesService": ["Email", "Telefone"]
+            },
+            "potentialAction": [
+                {
+                    "@type": "ContactPoint",
+                    "contactType": "Reserva",
+                    "telephone": "+33695468923",
+                    "url": "https://clairvoyancemedium.com/booking",
+                    "availableLanguage": ["Portuguese"],
+                    "description": "Marcar consulta com Frederick para uma vidência por email"
+                }
+            ],
+            "educationalAlignment": {
+                "@type": "AlignmentObject",
+                "educationalFramework": "Espiritualidade",
+                "targetName": "Vidência ética",
+                "targetUrl": "https://clairvoyancemedium.com/etica"
+            },
+            "subjectOf": {
+                "@type": "Book",
+                "name": "A Vidência Ética no Século 21",
+                "author": "Frederick",
+                "url": "https://clairvoyancemedium.com/livro"
+            },
+            "video": {
+                "@type": "VideoObject",
+                "name": "Como funciona uma consulta com Frederick?",
+                "description": "Frederick explica o seu método de vidência por email em 2 minutos",
+                "thumbnailUrl": "https://i.imgur.com/LVjBODh.jpg",
+                "embedUrl": "https://youtube.com/embed/video123",
+                "uploadDate": "2025-06-03",
+                "interactionStatistic": {
+                    "@type": "InteractionCounter",
+                    "interactionType": "https://schema.org/WatchAction",
+                    "userInteractionCount": 15000
+                }
+            },
+            "award": [
+                "Médium do Ano 2020"
+            ],
+            "priceRange": "€€-€€€",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Serviços Premium de Frederick",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Vidência por email",
+                            "description": "Consulta de vidência por email a partir de 15€, resposta em 24h para esclarecer as suas decisões.",
+                            "makesOffer": "Consulta a 15€"
+                        },
+                        "price": "15",
+                        "priceCurrency": "EUR",
+                        "availability": "https://schema.org/InStock"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Ritual sentimental premium",
+                            "description": "Ritual premium para reforçar laços afetivos, de 250€ a 500€.",
+                            "makesOffer": "Ritual a 250€-500€"
+                        },
+                        "priceSpecification": {
+                            "@type": "PriceSpecification",
+                            "minPrice": "250",
+                            "maxPrice": "500",
+                            "priceCurrency": "EUR"
+                        },
+                        "availability": "https://schema.org/InStock"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Desenfeitiçamento premium",
+                            "description": "Ritual premium para favorecer a eliminação de energias negativas, de 250€ a 500€.",
+                            "makesOffer": "Ritual a 250€-500€"
+                        },
+                        "priceSpecification": {
+                            "@type": "PriceSpecification",
+                            "minPrice": "250",
+                            "maxPrice": "500",
+                            "priceCurrency": "EUR"
+                        },
+                        "availability": "https://schema.org/InStock"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Ritual de paixão premium",
+                            "description": "Ritual premium para apoiar o amor e a intensidade emocional, de 250€ a 500€.",
+                            "makesOffer": "Ritual a 250€-500€"
+                        },
+                        "priceSpecification": {
+                            "@type": "PriceSpecification",
+                            "minPrice": "250",
+                            "maxPrice": "500",
+                            "priceCurrency": "EUR"
+                        },
+                        "availability": "https://schema.org/InStock"
+                    }
+                ]
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "500",
+                "bestRating": "5",
+                "worstRating": "1",
+                "description": "Baseado em 500 avaliações de clientes para os serviços de vidência e rituais premium."
+            },
+            "review": [
+                {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Maria D."
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5",
+                        "bestRating": "5"
+                    },
+                    "reviewBody": "A vidência por email de Frederick ajudou-me muito, resposta rápida e precisa."
+                },
+                {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Lucas P."
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "4",
+                        "bestRating": "5"
+                    },
+                    "reviewBody": "O ritual sentimental premium foi útil, mas resultados um pouco mais lentos que o esperado."
+                },
+                {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Organization",
+                        "name": "Federação Internacional de Vidência"
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "4.9",
+                        "bestRating": "5"
+                    },
+                    "reviewBody": "Frederick é um especialista reconhecido pelas suas consultas éticas e rituais premium."
+                }
+            ],
+            "paymentAccepted": ["PayPal", "GooglePay", "ApplePay", "Klarna", "Revolut", "Cartão bancário", "Crypto (USDT)"],
+            "hasPOS": "https://metaverse.clairvoyancemedium.com",
+            "termsOfService": "https://clairvoyancemedium.com/condicoes",
+            "refundPolicy": {
+                "@type": "MonetaryAmount",
+                "description": "Reembolso sob condições, ver https://clairvoyancemedium.com/reembolso"
+            }
+        },
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Como funciona a vidência por email?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Envie a sua pergunta por email a Frederick, que responderá em 4h com conselhos personalizados."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Como contactar Frederick?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Por email (contact@clairvoyancemedium.com) ou telefone (+33695468923)."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Quais são os serviços premium oferecidos por Frederick?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Frederick oferece consultas de vidência por email a partir de 15€, rituais sentimentais premium, desenfeitiçamentos premium, e rituais de paixão premium de 250€ a 500€."
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "Dataset",
+            "name": "Métodos de vidência Frederick",
+            "description": "Dados sobre a eficácia dos rituais premium e consultas de vidência por email",
+            "variableMeasured": "Taxa de satisfação de clientes",
+            "measurementMethod": "Inquéritos pós-ritual",
+            "url": "https://clairvoyancemedium.com/dados"
+        },
+        {
+            "@type": "HowTo",
+            "name": "Usar um ritual sentimental premium",
+            "description": "Guia para preparar e realizar um ritual sentimental premium com Frederick",
+            "step": [
+                {
+                    "@type": "HowToStep",
+                    "name": "Escolher uma intenção",
+                    "text": "Defina claramente o seu objetivo afetivo, como reforçar um laço amoroso."
+                },
+                {
+                    "@type": "HowToStep",
+                    "name": "Contactar Frederick",
+                    "text": "Envie o seu pedido por email para contact@clairvoyancemedium.com."
+                },
+                {
+                    "@type": "HowToStep",
+                    "name": "Seguir as instruções",
+                    "text": "Frederick guiá-lo-á para realizar o ritual premium personalizado."
+                }
+            ]
+        }
+    ]
+}
+</script>
+            <br>
+            <br>
+            <article class="audio-text">
+                <p>Clarividente/futurologista há mais de 25 anos, Frederick do gabinete ClairVoyanceMedium.com propõe-lhe <strong>serviços espirituais personalizados</strong> para o guiar na sua vida amorosa, profissional ou pessoal. Cada prestação é entregue em poucas horas apenas, com respostas claras e um acompanhamento confidencial. Complete a sua perda de peso com um equilíbrio emocional e espiritual graças aos nossos serviços:</p>
+            </article>
+            <div class="cta-buttons-container">
+                <a href="https://buy.stripe.com/dR614scnycPddd66oV" target="_blank" rel="noopener nofollow" class="cta-button service-button" data-tracking-label="VoyanceEmail" aria-label="Encomendar uma vidência por email 6€">
+    <span style="color:#000; text-shadow:0 0 5px rgba(255,255,255,0.8), 0 0 10px rgba(255,255,255,0.6), 0 0 15px rgba(255,255,255,0.4); animation:neon-flicker 1.5s infinite alternate;">Vidência por Email – 15,00€</span>
+    <span class="service-description audio-text" style="color:#808080;">Faça 3 perguntas precisas e receba uma vidência detalhada em 4 horas. Ideal para o amor, trabalho ou família.</span>
+</a>
+                <a href="https://buy.stripe.com/cN2bJ62MYg1p0qk5lE" target="_blank" rel="noopener nofollow" class="cta-button service-button" data-tracking-label="Desenvoutement" aria-label="Encomendar um desenfeitiçamento">
+    <span style="color:#000; text-shadow:0 0 5px rgba(255,255,255,0.8), 0 0 10px rgba(255,255,255,0.6), 0 0 15px rgba(255,255,255,0.4); animation:neon-flicker 1.5s infinite alternate;">Desenfeitiçamento – 250,00€</span>
+    <span class="service-description audio-text" style="color:#808080;">Liberte-se de energias negativas com um ritual personalizado. Resultados completos em 3 semanas.</span>
+</a>
+                <a href="https://buy.stripe.com/6oEbJ65ZacPd0qkbIX" target="_blank" rel="noopener nofollow" class="cta-button service-button" data-tracking-label="MagieSentimentale" aria-label="Encomendar um ritual de magia sentimental">
+    <span style="color:#000; text-shadow:0 0 5px rgba(255,255,255,0.8), 0 0 10px rgba(255,255,255,0.6), 0 0 15px rgba(255,255,255,0.4); animation:neon-flicker 1.5s infinite alternate;">Magia Sentimental – 250,00€</span>
+    <span class="service-description audio-text" style="color:#808080;">Reforce os seus laços amorosos ou atraia o amor com um ritual dedicado poderoso.</span>
+</a>
+                <a href="https://buy.stripe.com/fZefZmdrC8yX7SMdR8" target="_blank" rel="noopener nofollow" class="cta-button service-button" data-tracking-label="CompatibiliteAmoureuse" aria-label="Encomendar uma análise de compatibilidade amorosa">
+    <span style="color:#000; text-shadow:0 0 5px rgba(255,255,255,0.8), 0 0 10px rgba(255,255,255,0.6), 0 0 15px rgba(255,255,255,0.4); animation:neon-flicker 1.5s infinite alternate;">Compatibilidade Amorosa – 20,00€</span>
+    <span class="service-description audio-text" style="color:#808080;">Descubra se a sua relação é harmoniosa com uma análise baseada nos seus perfis.</span>
+</a>
+            </div>
+            <p class="urgency-notice audio-text">⏰ + de 60% cuidam do seu peso demasiado tarde! Encomende agora mesmo sem adiar constantemente para amanhã para poder ainda beneficiar dos preços atuais e recuperar uma saúde forte e duradoura!</p>
+        </section>
+    </main>
+    <br>
+
+<!-- ✅ Citação científica -->
+<div class="medical-ref" style="font-size:12px; color:#6a737d; line-height:1.4; margin:15px 0 5px;">
+    <span style="font-weight:500;">* Fonte oficial e Referência médica:</span>
+    <a href="https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/mayo-clinic-diet/art-20045460" 
+       target="_blank" 
+       rel="noopener external" 
+       style="color:#3a5f8a; text-decoration:none;"
+       title="Estudo Mayo Clinic sobre dietas duradouras"
+       itemprop="citation">
+       Mayo Clinic, 2023
+    </a>
+</div>
+
+<!-- ✅ Citação imprensa científica - Ultra otimizada SEO/IA 2025 -->
+<div class="press-reference" itemscope itemtype="https://schema.org/CreativeWork"
+     style="font-size:0.8rem; color:#5a6573; line-height:1.6; margin:0.3rem 0;">
+  
+  <meta itemprop="datePublished" content="2002-07-07">
+  <meta itemprop="author" content="Gary Taubes">
+  <meta itemprop="name" content="What If It's All Been a Big Fat Lie?">
+
+  <div style="margin-bottom:0.25rem; font-weight:600;" itemprop="publisher" itemscope itemtype="https://schema.org/NewsMediaOrganization">
+    <span itemprop="name">* Fonte jornalística científica – <span style="color:#3a5f8a;">New York Times</span> :</span>
+  </div>
+
+  <a href="https://www.nytimes.com/2002/07/07/magazine/what-if-it-s-all-been-a-big-fat-lie.html"
+     target="_blank"
+     rel="noopener external nofollow"
+     title="Ler o artigo fundador de Gary Taubes sobre dietas"
+     itemprop="url"
+     style="color:#3a5f8a; text-decoration:none; border-bottom:1px dotted #3a5f8a; transition:all 0.2s ease;"
+     aria-label="Artigo do New York Times sobre dietas alimentares">
+     <span itemprop="headline">
+       Gary Taubes (2002)
+     </span>
+  </a>
+
+</div>
+
+    <!-- Pop-up anti abandono -->
+    <div class="popup exit-intent-popup" id="youtubePopup" role="dialog" aria-labelledby="popup-heading">
+        <h2 id="popup-heading">+ de 60% cuidam do seu peso demasiado tarde!</h2>
+   
+        <!-- Bloco vídeo promocional das cápsulas Victory com tracking -->
+<div class="popup-video-container" 
+     id="victory-video-container"
+     style="max-width: 960px; margin: 2rem auto; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 16px; box-shadow: 0 0 20px rgba(0,0,0,0.3); background-color: #000;"
+     data-gtm-video="victory-emagrecimento-video"
+     data-gtm-category="Engajamento"
+     data-gtm-action="Reproduzir Vídeo"
+     data-gtm-label="Video-Minuto-Victory-Dj-pfiIzB44">
+
+  <iframe 
+    id="victoryVideo"
+    src="https://www.youtube-nocookie.com/embed/Dj-pfiIzB44?rel=0&vq=hd1080&autoplay=1&mute=0&enablejsapi=1" 
+    title="Vídeo oficial das cápsulas de emagrecimento Victory – perda de peso rápida e barriga lisa" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen 
+    loading="lazy" 
+    aria-label="Vídeo: Cápsulas de emagrecimento Victory – solução natural para emagrecer rápido"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+
+<!-- Legenda visível sob o vídeo (SEO e UX) -->
+<p style="text-align:center; font-size:1rem; color:#555; margin-top:1rem;">
+   Descubra como <strong>as cápsulas Victory</strong> ajudam a <em>perder peso rapidamente</em> enquanto recuperam uma <em>barriga lisa</em> e uma <em>energia natural</em>.
+</p>
+
+<!-- Forçar HD com YouTube Iframe API -->
+<script>
+  // Carregar a API JS YouTube
+  let tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  let firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  let player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('victoryVideo', {
+      events: {
+        'onReady': function (event) {
+          try {
+            event.target.setPlaybackQuality('hd1080'); // forçar a qualidade
+            event.target.playVideo();
+          } catch (e) {
+            console.warn("Qualidade não forçada", e);
+          }
+        }
+      }
+    });
+  }
+</script>
+
+<!-- Bloco invisível SEO -->
+<div style="position:absolute; left:-9999px; top:-9999px;">
+  <h1>Vídeo oficial das cápsulas de emagrecimento Victory</h1>
+  <p>As <strong>cápsulas de emagrecimento Victory</strong> ajudam-no a perder peso rapidamente e de forma duradoura. Este vídeo mostra resultados concretos: <em>barriga lisa</em>, <em>silhueta afinada</em>, <em>energia recuperada</em>. Sem dieta drástica, a fórmula atua eficazmente.</p>
+  <p>Descubra as avaliações de clientes, a composição natural e a eficácia clinicamente comprovada desta solução francesa para a perda de peso.</p>
+</div>
+
+<!-- Dados estruturados JSON-LD para indexação vídeo -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Vídeo das cápsulas de emagrecimento Victory",
+  "description": "Descubra como as cápsulas de emagrecimento Victory ajudam a perder peso rapidamente e de forma natural. Resultados visíveis: barriga lisa, silhueta afinada, energia recuperada.",
+  "thumbnailUrl": "https://img.youtube.com/vi/Dj-pfiIzB44/maxresdefault.jpg",
+  "uploadDate": "2024-05-01",
+  "embedUrl": "https://www.youtube-nocookie.com/embed/Dj-pfiIzB44",
+  "contentUrl": "https://www.clairvoyancemedium.com",
+  "publisher": {
+    "@type": "Organization",
+    "name": "ClairvoyanceMedium.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.clairvoyancemedium.com/logo.png"
+    }
+  }
+}
+</script>
+
     
